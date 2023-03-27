@@ -1,0 +1,122 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fafafa;
+    background: #37474f;
+}
+
+header{
+    background: #0d47a1;
+}
+
+a{
+    text-decoration: none;
+    color:#fafafa ;
+}
+
+.pdf{
+    color: #b0bec5;
+}
+
+.pdf:hover{
+    color: #fafafa;
+  
+}
+
+.navbar-brand{
+    background: #0d47a1;
+    color: #fafafa;
+}
+
+.nav-link{
+    background: #0d47a1;
+    color: #fafafa;  
+   
+}
+
+.navbar a:hover{
+ color:#212121;
+ transform: scale(0.9);
+ text-decoration: none;
+}
+
+.dropdown-menu{
+    background:#0d47a1;
+    transform: scale(0.9);  
+    text-decoration: none; 
+}
+
+.dropdown-menu a:hover{
+    color: #fafafa
+    text-decoration: none; 
+    transform: scale(0.9);   
+}
+
+.dropdown-item{
+    color: #fafafa;
+}
+
+.centrado{
+    text-align: center;
+}
+
+.espacios{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo1{
+    width: 15%;
+}
+
+.logo2{
+    width: 2%;
+}
+
+/*.logo3{
+    width: 6%;
+    height: 6%;
+    padding-left: 5px;
+    padding-right: 10px;
+}*/
+
+footer{
+    background: #37474f;   
+}
+
+.card{
+    color: #fafafa;
+    background: #0d47a1;
+}
+
+
+/*.pic1 :hover{
+    transform: scale(1.1); 
+    color: #212121;
+}*/
+
+h6{
+  color: #b0bec5;  
+}
+
+.frase{
+    color: #fafafa;
+    font-style: italic;  
+    text-decoration: none;
+    text-align: right;
+}
+
+.frase:hover{
+    color: #fafafa;
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
