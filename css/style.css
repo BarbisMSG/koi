@@ -9,29 +9,14 @@ header{
     background: #0d47a1;
 }
 
-a{
-    text-decoration: none;
-    color:#fafafa ;
-}
-
-.pdf{
-    color: #b0bec5;
-}
-
-.pdf:hover{
-    color: #fafafa;
-  
+.nav-link{
+    background: #0d47a1;
+    color: #fafafa;    
 }
 
 .navbar-brand{
     background: #0d47a1;
     color: #fafafa;
-}
-
-.nav-link{
-    background: #0d47a1;
-    color: #fafafa;  
-   
 }
 
 .navbar a:hover{
@@ -48,12 +33,53 @@ a{
 
 .dropdown-menu a:hover{
     color: #fafafa
-    text-decoration: none; 
+    text-decoration; 
     transform: scale(0.9);   
 }
 
 .dropdown-item{
     color: #fafafa;
+}
+
+a{
+    text-decoration: none;
+    color: #fafafa;
+}
+
+h1.texto{
+    font-size: 30px;
+    font-style: italic;
+}
+
+p.texto{
+    text-align: center;
+    font-size: 18px;   
+}
+
+.frase1{
+    color: #fafafa;
+    font-style: italic;  
+    text-align: center;
+    font-size: 15px;   
+}
+
+.frase1:hover{
+    color: #ffc107;  
+}
+
+.frase3{
+    color: #fafafa;
+    font-style: italic;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.pdf{
+    color: #b0bec5;
+}
+
+.pdf:hover{
+    color: #fafafa; 
 }
 
 .centrado{
@@ -65,23 +91,51 @@ a{
     padding-bottom: 30px;
 }
 
-.logo1{
-    width: 15%;
-}
-
-.logo2{
-    width: 2%;
-}
-
-/*.logo3{
-    width: 6%;
-    height: 6%;
-    padding-left: 5px;
-    padding-right: 10px;
-}*/
-
 footer{
     background: #37474f;   
+}
+
+.tienda{
+    text-align: center;
+}
+
+.btn-primary{
+    text-decoration: none;
+    float: right;
+    background-color: #fafafa;
+    color: #37474f;
+    border-color: #212121;
+}
+
+.btn-primary:hover{
+    color: #212121 ;
+    background-color: #b0bec5;
+}
+
+.kingdojo{
+    color: #b0bec5
+}
+
+.kingdojo:hover{
+    color: #212121;
+}
+
+.entrevista{
+    color: #b0bec5;
+
+}
+
+.entrevista:hover{
+    color: #212121;
+}
+
+.sedes{
+    text-align: center;
+}
+
+h4.sedes:hover{
+    transform: scale(1.1);
+    color: #212121;
 }
 
 .card{
@@ -89,27 +143,196 @@ footer{
     background: #0d47a1;
 }
 
-
-/*.pic1 :hover{
-    transform: scale(1.1); 
-    color: #212121;
-}*/
-
 h6{
   color: #b0bec5;  
+}
+
+p.instructores{
+    font-size: 20px;
+    text-align: center;
+  }
+
+h6.instructores{
+    font-size: 15px;
+    text-align: center;
+}
+
+p.instructores:hover{
+    transform: scale(1.1);
+    color: #212121;   
+}
+
+/*.btn-info{
+    text-decoration: none;
+    float: left;
+    background-color: #fafafa;
+    color: #37474f;
+    border-color: #fafafa;
+}
+
+.btn-info:hover{
+    text-decoration: none;
+    float: right;
+    background-color: #37474f;
+    color: #fafafa;
+    border-color: #37474f;
+}
+
+*/
+
+.logo{
+    width: 30%;
+}
+
+
+.contacto{
+    font-size: 12px ;
+    text-align: left;
 }
 
 .frase{
     color: #fafafa;
     font-style: italic;  
-    text-decoration: none;
-    text-align: right;
+    font-size: 20px;
+    text-align: center;
 }
 
 .frase:hover{
-    color: #fafafa;
-    transform: scale(1.1);
+    color: #ffc107;
 }
+
+@media screen and (orientation:landscape) and (min-width:320px) and (max-width: 900px){
+        h1.texto{
+        font-size: 15px;
+        font-style: normal;
+    }
+
+    p.texto{
+        text-align: center;
+        font-size: 12px;
+        font-style: italic;
+    }
+   
+    .frase1{
+            color: #fafafa;
+            font-style: italic;  
+            text-align: center;
+            font-size: 10px;
+    }
+
+    .frase3{
+        color: #fafafa;
+        font-style: italic;
+        font-size: 12px;
+        text-decoration: none;
+    }
+
+    .kingdojo{
+        color: #b0bec5
+    }
+    
+    .kingdojo:hover{
+        color: #212121;
+    }
+    
+    .entrevista{
+        color: #b0bec5;
+    
+    }
+    
+    .entrevista:hover{
+        color: #212121;
+    }
+
+    p.instructores{
+        font-size: 20px;
+        text-align: center;
+      }
+    
+    h6.instructores{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    p.instructores:hover{
+        transform: scale(1.1);
+        color: #212121;   
+    }
+
+  
+
+}
+
+@media screen and (min-width:320px) and (max-width: 900px){
+    h1.texto{
+    font-size: 15px;
+    font-style: normal;
+}
+
+p.texto{
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.frase1{
+        color: #fafafa;
+        font-style: italic;  
+        text-align: center;
+        font-size: 10px;
+}
+
+.frase3{
+    color: #fafafa;
+    font-style: italic;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.kingdojo{
+    color: #b0bec5
+}
+
+.kingdojo:hover{
+    color: #212121;
+}
+
+.entrevista{
+    color: #b0bec5;
+
+}
+
+.entrevista:hover{
+    color: #212121;
+}
+
+
+p.instructores{
+        font-size: 20px;
+        text-align: center;
+      }
+    
+    h6.instructores{
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    p.instructores:hover{
+        transform: scale(1.1);
+        color: #212121;   
+    }
+
+}
+
+
+
+   
+
+   
+
+  
+
+  
 
 
 
