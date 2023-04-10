@@ -51,6 +51,10 @@ h1.texto{
     font-style: italic;
 }
 
+h2.texto{
+    font-size: 25px;
+}
+
 p.texto{
     text-align: center;
     font-size: 18px;   
@@ -96,7 +100,12 @@ footer{
 }
 
 .tienda{
-    text-align: center;
+    text-align: center; 
+}
+
+h4.tienda{
+    text-align: center; 
+    font-size: 18px;
 }
 
 .btn-primary{
@@ -111,6 +120,11 @@ footer{
     color: #212121 ;
     background-color: #b0bec5;
 }
+
+.representacion:hover{
+     color: #b0bec5;
+}
+
 
 .kingdojo{
     color: #b0bec5
@@ -131,6 +145,7 @@ footer{
 
 .sedes{
     text-align: center;
+    
 }
 
 h4.sedes:hover{
@@ -201,8 +216,28 @@ p.instructores:hover{
     color: #ffc107;
 }
 
-@media screen and (orientation:landscape) and (min-width:320px) and (max-width: 900px){
+@media screen and (orientation:landscape) and (max-width: 900px){
         h1.texto{
+        font-size: 15px;
+        font-style: normal;
+    }
+
+    h2.texto{
+        font-size: 15px;
+        font-style: normal;
+    }
+
+    h4.tienda{
+        text-align: center; 
+        font-size: 12px;
+    }
+
+    h6.tienda{
+        text-align: center; 
+        font-size: 12px;
+    }
+
+    h4.sedes{
         font-size: 15px;
         font-style: normal;
     }
@@ -263,16 +298,35 @@ p.instructores:hover{
 
 }
 
-@media screen and (min-width:320px) and (max-width: 900px){
+@media screen and (max-width:480px){
     h1.texto{
     font-size: 15px;
     font-style: normal;
 }
 
+h2.texto{
+    font-size: 15px;
+    font-style: normal;
+}
+
+h4.tienda{
+    text-align: center; 
+    font-size: 12px;
+}
+
+h6.tienda{
+    text-align: center; 
+    font-size: 12px;
+}
+
 p.texto{
     text-align: center;
     font-size: 12px;
-    font-style: italic;
+    
+}
+
+.frase{
+    font-size: 12px;
 }
 
 .frase1{
@@ -320,6 +374,13 @@ p.instructores{
     p.instructores:hover{
         transform: scale(1.1);
         color: #212121;   
+    }
+
+    .logo{
+        width: 10%;
+        padding: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
 }
